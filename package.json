@@ -1,0 +1,22 @@
+{
+  "name": "github-hero-relay",
+  "version": "0.0.1",
+  "description":
+    "A Relay app acting as an entry point to various APIs using GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/Faultless/github-hero-relay.git",
+  "author": "Serge R. Kamel",
+  "license": "MIT",
+  "scripts": {
+    "relay": "relay-compiler --src ./src --schema path/schema.graphql"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-relay": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-relay": "^1.4.1",
+    "relay-compiler": "^1.4.1"
+  }
+}
